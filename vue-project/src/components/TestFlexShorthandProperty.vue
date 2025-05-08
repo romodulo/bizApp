@@ -1,5 +1,5 @@
 <script setup>
-
+import NewSheetComponent from './NewSheetComponent.vue'
 </script>
 
 <template>
@@ -37,9 +37,8 @@
         class="flex-grow-1 flex-shrink-1 item-6-self border text-center">
             Court 6
         </v-sheet>
-
-
     </v-sheet>
+    <NewSheetComponent></NewSheetComponent>
   
 </template>
 
