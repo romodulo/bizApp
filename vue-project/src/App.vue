@@ -1,6 +1,6 @@
 <script setup>
 import TestEmailComponent from './components/TestEmailComponent.vue'
-
+import TestFlexShorthandProperty from './components/TestFlexShorthandProperty.vue'
 </script>
 
 <template>
@@ -30,6 +30,7 @@ import TestEmailComponent from './components/TestEmailComponent.vue'
       <!-- <v-btn rounded = 'lg' size="large" elevation="8" class="mt-8 ml-7">halejkr</v-btn> -->
       <!-- <v-btn rounded = 'lg' size="large" elevation="8" class="d-block mx-auto mt-8">halejkr</v-btn> -->
       
+      <v-divider></v-divider>
       <v-card
         class="mx-auto mt-16 mb-8"
         elevation="16"
@@ -52,6 +53,10 @@ import TestEmailComponent from './components/TestEmailComponent.vue'
       <!-- <div class="d-flex"> -->
       <v-btn rounded = 'lg' size="large" elevation="8" class="d-block mx-auto my-8" max-width="230">test deployment_3</v-btn>
       <!-- </div> -->
+
+      <v-divider></v-divider>
+
+      <TestFlexShorthandProperty></TestFlexShorthandProperty>
     </v-main>
 
   </v-app>
