@@ -1,5 +1,11 @@
 # vue-project
 
+## To do:
+
+bizApp2
+
+## Instructions for Development && Production Build
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
